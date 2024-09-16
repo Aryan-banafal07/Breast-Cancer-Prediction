@@ -18,22 +18,17 @@ Matplotlib: Data visualization.
 Scikit-learn: Machine learning algorithms and metrics.
 Python: Programming language used.
 Installation
+
 Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/yourusername/Breast-Cancer-Prediction.git
+git clone https://github.com/Aryan-banafal07/Breast-Cancer-Prediction.git
 cd Breast-Cancer-Prediction
 Set Up a Virtual Environment
 
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install Dependencies
 
-bash
-Copy code
 pip install -r requirements.txt
 Run the Script
 
@@ -42,11 +37,9 @@ Execute the script in a Python environment or Jupyter notebook.
 Evaluation
 Confusion Matrix:
 
-plaintext
-Copy code
 [[88  2]
  [ 2 51]]
-Accuracy: 97.20%
+# Accuracy: 97.20%
 
 Visualization
 A color-coded contour plot visualizes the decision boundary for the two selected features, demonstrating the separation between malignant and benign cases.
@@ -61,4 +54,4 @@ Contributing
 Feel free to open issues or submit pull requests if you have suggestions or improvements.
 
 Contact
-For questions or feedback, please contact [your email address or website].
+For questions or feedback, please contact [(https://aryanbanafal.vercel.app)].
