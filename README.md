@@ -1,30 +1,43 @@
-Breast Cancer Prediction using Support Vector Machine (SVM)
-This project implements a machine learning model to predict the likelihood of breast cancer based on patient data. The model uses features such as tumor characteristics to assist in early diagnosis and treatment planning. The project focuses on applying a Support Vector Machine (SVM) with a linear kernel for classification.
+**Breast Cancer Prediction using Support Vector Machine (SVM)**
+This project implements a machine learning model to predict the likelihood of breast cancer based on patient data. The model utilizes features such as tumor characteristics to assist in early diagnosis and treatment planning. The focus is on applying a Support Vector Machine (SVM) with a linear kernel for classification.
 
-Features
-Data Preprocessing: The dataset undergoes feature scaling using StandardScaler for improved model performance.
-Model Training: An SVM model is trained on a subset of the data (training set), and predictions are made on the test set.
-Performance Evaluation: A confusion matrix and accuracy score are used to evaluate the performance of the model on the test set.
-Visualization: A 2D visualization of the decision boundary is provided for a selected subset of features (radius_mean and texture_mean).
+**Features**
+Data Preprocessing:
+Feature scaling using StandardScaler to normalize the data for improved model performance.
+Model Training:
+Training an SVM model on a subset of the data (training set).
+Making predictions on the test set.
+Performance Evaluation:
+Evaluating the model using a confusion matrix and accuracy score.
+Visualization:
+2D visualization of the decision boundary for selected features (radius_mean and texture_mean).
 Libraries Used
 numpy
 pandas
 matplotlib
 scikit-learn
 Confusion Matrix and Accuracy Score
-lua
+plaintext
 Copy code
+Confusion Matrix:
 [[88  2]
  [ 2 51]]
-Accuracy: 97.2%
+
+**Accuracy: 97.20%**
 Visualization of SVM Classifier (Training Set)
-The decision boundary is visualized for two selected features using a color-coded contour plot, demonstrating the separation between malignant and benign cases.
+A color-coded contour plot visualizes the decision boundary for the two selected features, demonstrating the separation between malignant and benign cases.
 
 How to Use
-Clone this repository.
-Install the necessary Python libraries from requirements.txt.
-Replace the dataset with your own or use the existing one.
-Run the script in a Jupyter notebook or Python environment.
-Dataset
-Ensure that the dataset used follows the expected structure where the labels are mapped to M for malignant and B for benign, which are then converted to binary values.
+Clone this repository:
+bash
+Copy code
+git clone https://github.com/Aryan-banafal7/Breast-Cancer-Prediction.git
+Install the necessary Python libraries:
+bash
+Copy code
+pip install -r requirements.txt
 
+Run the script:
+Execute the script in a Jupyter notebook or Python environment.
+Dataset
+Ensure that the dataset follows the expected structure, with labels mapped to M for malignant and B for benign, which are then converted to binary values.
