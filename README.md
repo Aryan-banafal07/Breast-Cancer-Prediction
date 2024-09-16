@@ -1,7 +1,7 @@
-#Breast Cancer Prediction using Support Vector Machine (SVM)
+# Breast Cancer Prediction using Support Vector Machine (SVM)
 This project implements a machine learning model to predict the likelihood of breast cancer based on patient data. The model utilizes features such as tumor characteristics to assist in early diagnosis and treatment planning. The focus is on applying a Support Vector Machine (SVM) with a linear kernel for classification.
 
-#Features
+# Features
 Data Preprocessing:
 Handles missing values and scales features using StandardScaler for improved model performance.
 Model Training:
