@@ -38,7 +38,7 @@ Evaluation
 Confusion Matrix:
 
 [[88  2]
- [ 2 51]]
+[ 2 51]]
 # Accuracy: 97.20%
 
 Visualization
